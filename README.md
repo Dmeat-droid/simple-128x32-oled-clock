@@ -1,4 +1,4 @@
-# Clock
+# Simple Clock Using oled display 128x32 and RTC DS1302
 
 ## Overview
 A physical clock that will display information current date and time. To make the layout for the lcd, i use the [lopaka](https://lopaka.app).
@@ -23,7 +23,7 @@ A physical clock that will display information current date and time. To make th
 | LCD (SDA) | A4          |
 | LCD (SCK) | A5          |
 
-## Requred Libraries
+## Required Libraries
 Please install the following library via the Arduino IDE Library Manager:
 * [Ds1302](https://github.com/Treboada/Ds1302)
 * [U8g2lib](https://github.com/olikraus/u8g2)
